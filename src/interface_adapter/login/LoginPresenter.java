@@ -9,7 +9,7 @@ import use_case.login.LoginOutputData;
 import use_case.signup.SignupOutputBoundary;
 import use_case.signup.SignupOutputData;
 
-public class LoginPresenter implements LoginOutputBoundary {
+/*public class LoginPresenter implements LoginOutputBoundary {
 
     private final LoginViewModel loginViewModel;
     private final LoggedInViewModel loggedInViewModel;
@@ -42,4 +42,4 @@ public class LoginPresenter implements LoginOutputBoundary {
         loginState.setUsernameError(error);
         loginViewModel.firePropertyChanged();
     }
-}
+}*/
